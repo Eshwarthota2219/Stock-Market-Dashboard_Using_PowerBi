@@ -1,0 +1,86 @@
+Business Requirement Document (BRD)
+Project: Stock Market Dashboard (2023–2024)
+1. Purpose
+
+The Stock Market Dashboard is designed to provide stakeholders, analysts, and investors with real-time insights into stock performance, trading volumes, sector-wise contributions, and company-specific trends. It enables data-driven decision-making by analyzing key financial indicators for the years 2023 and 2024.
+
+2. Objectives
+
+Track overall market volume, highs, lows, and closing trends.
+
+Compare current year vs previous year (TY vs PY) volume trends.
+
+Analyze sector-wise trading activity.
+
+Highlight company-wise contributions to total market volume.
+
+Monitor monthly trading volume averages for better forecasting.
+
+Identify top companies based on trading metrics such as High, Open, and Close prices.
+
+3. Key Business Questions
+
+The dashboard should answer:
+
+What is the total stock market volume traded during 2023–2024?
+
+How do 2023 and 2024 volumes compare month by month?
+
+What are the closing price trends across the period?
+
+Which sectors contribute most to overall trading volume (Finance, Auto, Energy, IT)?
+
+Which companies dominate in terms of total volume distribution?
+
+What is the monthly average trading volume across the market?
+
+Who are the top-performing companies in terms of High, Open, and Close prices?
+
+4. Functional Requirements
+KPIs (Cards)
+
+Total Volume (8bn)
+
+Total High (19M)
+
+Total Low (17.89M)
+
+Total Close (18M)
+
+Sum of Daily Price (512.63)
+
+Average Volume (1.05M)
+
+Visualizations
+
+Line Chart: Total Volume TY vs PY (2023 vs 2024 trend)
+
+Line Chart: Closing Price Trend
+
+Pie Chart: Sector-wise Volume Distribution
+
+Pie Chart: Company-wise Volume Distribution
+
+Bar Chart: Monthly Average Volume
+
+Table: Top Companies (Total High, Total Open, Total Close)
+
+Filters
+
+Date Range (From–To)
+
+Company (Optional enhancement)
+
+Sector (Optional enhancement)
+
+5. Business Impact
+
+Provides a clear picture of stock market trends over two years.
+
+Enables investors to compare year-over-year performance.
+
+Supports portfolio allocation decisions by highlighting sector dominance.
+
+Helps analysts identify top companies driving market movement.
+
+Assists in forecasting and strategy development using monthly average volume insights.
